@@ -56,8 +56,8 @@ function TableDetail( {table} ) {
         <div className="card text-center card-background">
             <ErrorAlert error={error} />
             <div className="card-body">
-                <p className="card-text">Table Name: {currentTable.table_name}</p>
-                <p className="card-text">Table Capacity: {currentTable.capacity}</p>
+                <p className="card-header bg-info">Table Name: {currentTable.table_name}</p>
+                <p className="card-text mt-3">Table Capacity: {currentTable.capacity}</p>
                 <p className="card-text" data-table-id-status={`${currentTable.table_id}`}>
                 {tableStatus}
                 </p>   

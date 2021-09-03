@@ -100,7 +100,7 @@ function ReservationForm({ handleSubmit, formData, setFormData }) {
                 className="form-control"
                 />
             <br />
-            <label>Amount of People:</label>
+            <label>Number of People:</label>
             <br />
                 <input
                 name="people"

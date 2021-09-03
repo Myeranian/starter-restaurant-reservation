@@ -32,7 +32,7 @@ function NewTable() {
         <div>
             <ErrorAlert error={error} />
 
-            <h3 className="d-flex m-3 justify-content-center">New Table Form</h3>
+            <h3 className="d-flex m-3 justify-content-center">New Table</h3>
 
             <div>
                 <form className="form-group" onSubmit={handleSubmit}>

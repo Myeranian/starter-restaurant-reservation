@@ -31,7 +31,7 @@ function SearchPhone() {
                 )}
             </div>
 
-            <h3 className="d-flex m-3 justify-content-center">Search Form</h3>
+            <h3 className="d-flex m-3 justify-content-center">Search</h3>
 
             <div>
                 <form className="form-group" onSubmit={handleSubmit}>

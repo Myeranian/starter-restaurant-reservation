@@ -47,11 +47,11 @@ function ReservationDetail({reservation}) {
     return (
         <div className="card text-left card-background">
             <ErrorAlert error={error} />
-            <div className="card-body">
+            <div className="card-body bg-warning">
                 <h4 className="card-title text-center">{currentReservation.reservation_time}</h4>
                 <p className="card-text text-center">{currentReservation.reservation_date}</p>
 
-                <p className="card-text">{currentReservation.first_name} {currentReservation.last_name}</p>
+                <h4 className="card-text">{currentReservation.first_name} {currentReservation.last_name}</h4>
                 <p className="card-text">{currentReservation.mobile_number}</p>
                 <p className="card-text">Party Size: {currentReservation.people}</p>
                 <p className="text-center boldtext" data-reservation-id-status={currentReservation.reservation_id}>{currentReservation.status ? currentReservation.status : "booked"}</p>
